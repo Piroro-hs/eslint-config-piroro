@@ -25,10 +25,9 @@ module.exports = {
     'no-confusing-arrow': 1,
     'no-invalid-this': 2,
     'no-nested-ternary': 0,
+    "no-use-before-define": [2, "nofunc"],
     'object-curly-spacing': [2, 'never'],
     'require-yield': 2,
-    /* "sort-imports": [1, {"ignoreCase": true}],
-    "sort-keys": [1, "asc", {"natural": true}],*/
     'fp/no-mutating-methods': 0,
     'fp/no-mutation': [2, {
       commonjs: true,
