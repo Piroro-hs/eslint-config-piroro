@@ -14,13 +14,7 @@ module.exports = {
   ],
   rules: {
     curly: ['error', 'all'],
-    indent: ['error', 2, {
-      SwitchCase: 0,
-      VariableDeclarator: 1,
-      outerIIFEBody: 1,
-      MemberExpression: 1,
-    }],
-    'no-confusing-arrow': 'warn',
+    'no-confusing-arrow': 'off',
     'no-invalid-this': 'error',
     'no-nested-ternary': 'off',
     'no-use-before-define': ['error', {functions: false}],
