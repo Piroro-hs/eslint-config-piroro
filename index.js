@@ -8,6 +8,7 @@ module.exports = {
     'plugin:fp/recommended',
     'prettier',
   ],
+  parser: 'babel-eslint',
   plugins: [
     'fp',
     'prettier',
