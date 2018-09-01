@@ -1,6 +1,7 @@
 module.exports = {
   extends: [
     'airbnb',
+    'prettier/react',
     require.resolve('./index.js'),
   ],
   rules: {
