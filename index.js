@@ -24,6 +24,7 @@ module.exports = {
       commonjs: true,
       allowThis: true,
     }],
+    'fp/no-events': 'off',
     'fp/no-nil': 'off',
     'fp/no-rest-parameters': 'off',
     'fp/no-unused-expression': 'off',
