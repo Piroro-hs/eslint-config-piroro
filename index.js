@@ -4,8 +4,9 @@ module.exports = {
     node: true,
   },
   extends: [
-    'airbnb-base',
+    'eslint:all',
     'plugin:fp/recommended',
+    // 'plugin:import/warnings', TODO
     'prettier',
   ],
   parser: 'babel-eslint',
@@ -28,9 +29,9 @@ module.exports = {
     'fp/no-nil': 'off',
     'fp/no-rest-parameters': 'off',
     'fp/no-unused-expression': 'off',
-    'import/extensions': ['error', 'never'],
-    'import/no-extraneous-dependencies': 'off',
-    'import/no-unresolved': 'off',
+    // 'import/extensions': ['error', 'never'],
+    // 'import/no-extraneous-dependencies': 'off',
+    // 'import/no-unresolved': 'off',
     'prettier/prettier': ['error', {
       printWidth: 100,
       singleQuote: true,

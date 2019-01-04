@@ -1,22 +1,19 @@
 {
   "name": "eslint-config-piroro",
   "description": "うゅのeslint config",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "author": "Piroro-hs",
   "bugs": {
     "url": "https://github.com/Piroro-hs/eslint-config-piroro/issues"
   },
   "dependencies": {
-    "babel-eslint": "^8.2.6",
-    "eslint-config-airbnb": "^17.0.0",
-    "eslint-config-airbnb-base": "^13.0.0",
-    "eslint-config-prettier": "^2.9.0",
+    "babel-eslint": "^10.0.1",
+    "eslint-config-prettier": "^3.3.0",
     "eslint-plugin-fp": "^2.3.0",
-    "eslint-plugin-import": "^2.13.0",
-    "eslint-plugin-jsx-a11y": "^6.1.1",
-    "eslint-plugin-prettier": "^2.6.2",
-    "eslint-plugin-react": "^7.10.0",
-    "prettier": "^1.13.7"
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-react": "^7.12.2",
+    "prettier": "^1.15.3"
   },
   "homepage": "https://github.com/Piroro-hs/eslint-config-piroro#readme",
   "keywords": [
@@ -25,7 +22,7 @@
   "license": "MIT",
   "main": "index.js",
   "peerDependencies": {
-    "eslint": "^4"
+    "eslint": "5.11.1"
   },
   "repository": {
     "type": "git",
