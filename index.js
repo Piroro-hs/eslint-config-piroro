@@ -16,10 +16,12 @@ module.exports = {
   ],
   rules: {
     curly: ['error', 'all'],
+    'init-declarations': 'off', // In favor of fp/no-let.
     'no-confusing-arrow': 'off',
     'no-invalid-this': 'error',
     'no-nested-ternary': 'off',
     'no-use-before-define': ['error', {functions: false}],
+    'one-var': ['error', 'never'],
     'fp/no-mutating-methods': 'warn',
     'fp/no-mutation': ['error', {
       commonjs: true,
