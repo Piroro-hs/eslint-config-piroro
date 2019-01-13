@@ -4,8 +4,9 @@ module.exports = {
     node: true,
   },
   extends: [
-    'airbnb-base',
+    'eslint:all',
     'plugin:fp/recommended',
+    // 'plugin:import/warnings', TODO
     'prettier',
   ],
   parser: 'babel-eslint',
@@ -14,11 +15,11 @@ module.exports = {
     'prettier',
   ],
   rules: {
-    curly: ['error', 'all'],
+    'init-declarations': 'off', // In favor of fp/no-let.
     'no-confusing-arrow': 'off',
-    'no-invalid-this': 'error',
     'no-nested-ternary': 'off',
     'no-use-before-define': ['error', {functions: false}],
+    'one-var': ['error', 'never'],
     'fp/no-mutating-methods': 'warn',
     'fp/no-mutation': ['error', {
       commonjs: true,
@@ -28,9 +29,9 @@ module.exports = {
     'fp/no-nil': 'off',
     'fp/no-rest-parameters': 'off',
     'fp/no-unused-expression': 'off',
-    'import/extensions': ['error', 'never'],
-    'import/no-extraneous-dependencies': 'off',
-    'import/no-unresolved': 'off',
+    // 'import/extensions': ['error', 'never'],
+    // 'import/no-extraneous-dependencies': 'off',
+    // 'import/no-unresolved': 'off',
     'prettier/prettier': ['error', {
       printWidth: 100,
       singleQuote: true,
