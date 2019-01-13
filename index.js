@@ -17,9 +17,12 @@ module.exports = {
   rules: {
     'init-declarations': 'off', // In favor of fp/no-let.
     'no-confusing-arrow': 'off',
+    'no-magic-numbers': 'off',
     'no-nested-ternary': 'off',
+    'no-ternary': 'off',
     'no-use-before-define': ['error', {functions: false}],
     'one-var': ['error', 'never'],
+    'sort-imports': 'off',
     'fp/no-mutating-methods': 'warn',
     'fp/no-mutation': ['error', {
       commonjs: true,
