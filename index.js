@@ -1,6 +1,7 @@
 module.exports = {
   env: {
     browser: true,
+    es6: true,
     node: true,
   },
   extends: [
@@ -15,6 +16,7 @@ module.exports = {
     'prettier',
   ],
   rules: {
+    'id-length': 'off',
     'init-declarations': 'off', // In favor of fp/no-let.
     'no-confusing-arrow': 'off',
     'no-magic-numbers': 'off',
