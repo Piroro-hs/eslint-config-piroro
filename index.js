@@ -14,7 +14,7 @@ module.exports = {
   plugins: ['fp', 'prettier'],
   rules: {
     camelcase: 'warn',
-    'capitalized-comments': ['error', 'never'],
+    'capitalized-comments': ['error', 'never', {ignorePattern: 'TODO'}],
     eqeqeq: ['error', 'always', {null: 'ignore'}],
     'id-length': 'off',
     'init-declarations': 'off', // In favor of fp/no-let.
@@ -25,6 +25,7 @@ module.exports = {
     'no-nested-ternary': 'off',
     'no-ternary': 'off',
     'no-use-before-define': ['error', {functions: false}],
+    'no-warning-comments': 'warn',
     'one-var': ['error', 'never'],
     'sort-imports': 'off',
     'sort-keys': 'off',
