@@ -13,6 +13,7 @@ module.exports = {
   parser: 'babel-eslint',
   plugins: ['fp', 'prettier'],
   rules: {
+    camelcase: 'warn',
     'capitalized-comments': ['error', 'never'],
     eqeqeq: ['error', 'always', {null: 'ignore'}],
     'id-length': 'off',
