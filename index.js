@@ -20,6 +20,7 @@ module.exports = {
     'init-declarations': 'off', // In favor of fp/no-let.
     'line-comment-position': 'off',
     'multiline-comment-style': 'off',
+    'no-bitwise': 'off',
     'no-confusing-arrow': 'off',
     'no-console': 'off',
     'no-inline-comments': 'off',
