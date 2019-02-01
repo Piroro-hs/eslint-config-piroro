@@ -14,12 +14,14 @@ module.exports = {
   plugins: ['fp', 'prettier'],
   rules: {
     camelcase: 'warn',
-    'capitalized-comments': ['error', 'never', {ignorePattern: 'TODO'}],
+    'capitalized-comments': 'off',
     eqeqeq: ['error', 'always', {null: 'ignore'}],
     'id-length': 'off',
     'init-declarations': 'off', // In favor of fp/no-let.
     'line-comment-position': 'off',
+    'multiline-comment-style': 'off',
     'no-confusing-arrow': 'off',
+    'no-console': 'off',
     'no-inline-comments': 'off',
     'no-magic-numbers': 'off',
     'no-nested-ternary': 'off',
