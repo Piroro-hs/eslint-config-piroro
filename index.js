@@ -19,6 +19,7 @@ module.exports = {
     'id-length': 'off',
     'init-declarations': 'off', // In favor of fp/no-let.
     'line-comment-position': 'off',
+    'max-lines-per-function': 'off',
     'max-statements': 'off',
     'multiline-comment-style': 'off',
     'no-bitwise': 'off',
