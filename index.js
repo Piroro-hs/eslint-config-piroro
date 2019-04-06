@@ -15,6 +15,7 @@ module.exports = {
   rules: {
     camelcase: 'warn',
     'capitalized-comments': 'off',
+    complexity: 'off',
     eqeqeq: ['error', 'always', {null: 'ignore'}],
     'id-length': 'off',
     'init-declarations': 'off', // In favor of fp/no-let.
